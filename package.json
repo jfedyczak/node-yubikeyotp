@@ -1,6 +1,6 @@
 {
 	"name": "yubikeyotp",
-	"version": "0.0.2",
+	"version": "0.2.0",
 	"description": "Low-level Yubikey OTP decryption / verification library for node.js",
 	"main": "./lib/yubikeyotp.js",
 
@@ -12,9 +12,10 @@
 	"url": "https://github.com/jfedyczak/node-yubikeyotp"
 	},
 	"author": "Jakub Fedyczak <jakub@fedyczak.net>",
-	"license": "Simplified BSD",
+	"license": "BSD-2-Clause",
 	"readmeFilename": "README.md",
 
 	"dependencies": {
+		"request": "*"
 	}
 }
